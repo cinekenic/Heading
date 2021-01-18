@@ -1,0 +1,15 @@
+@mixin box {
+  height: 228px;
+  text-align: center;
+  font-family: Rubik;
+  padding: 36.3px 30px;
+  background-color: #fff;
+}
+
+@mixin headings {
+  color: $main-color;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}

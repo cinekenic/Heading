@@ -1,0 +1,27 @@
+.tns-controls [data-controls] {
+  color: $arrows-color;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: $bg_main_header_color;
+  position: absolute;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+}
+
+.tns-controls [data-controls]:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+.tns-controls [data-controls]:focus {
+  outline: none;
+}
+
+.tns-controls [data-controls="prev"] {
+  left: -70px;
+}
+
+.tns-controls [data-controls="next"] {
+  right: -70px;
+}

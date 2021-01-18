@@ -1,0 +1,30 @@
+h1 {
+  //styleName: H1;
+  @include headings;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0px;
+  padding-top: 49px;
+  margin-bottom: 5px;
+}
+p {
+  //styleName: body-big;
+  @include headings;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+h2 {
+  //styleName: H2;
+  @include headings;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+h3 {
+  //styleName: H3;
+  @include headings;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
